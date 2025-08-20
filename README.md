@@ -33,4 +33,8 @@
 - install shadcn-ui
 - change global.css file
 
+# Day-2
 
+- Create a (home) route group
+- Create a navbar 
+- In navbar create a router for home ,contact ,features ,pricing
