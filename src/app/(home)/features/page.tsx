@@ -3,7 +3,7 @@
 const Pricing = () =>{
     return(
         <div>
-             Pricing
+            Fetures
         </div>
     )
 }

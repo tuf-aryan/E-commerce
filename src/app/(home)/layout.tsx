@@ -1,16 +1,19 @@
+import Fotter from "./Fotter";
 import Navbar from "./navbar";
 
-interface Props{
-    children:React.ReactNode,
+interface Props {
+  children: React.ReactNode;
 }
 
-const Layout = ({children}:Props) =>{
-    return (
-        <div className="flex flex-col min-h-screen">
-            <Navbar/>
-{children}
-        </div>
-    )
-}
+const Layout = ({ children }: Props) => {
+  return (
+    <div className="flex flex-col min-h-screen">
+      <Navbar />
+      <div className="flex-1 bg-[#f4f4f0]"> {children}</div>
+
+      <Fotter />
+    </div>
+  );
+};
 
 export default Layout;

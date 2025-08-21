@@ -38,3 +38,9 @@
 - Create a (home) route group
 - Create a navbar 
 - In navbar create a router for home ,contact ,features ,pricing
+
+# Day-3 
+
+- Create a Responsive navbar for mobile
+- SideBar for Mobile view 
+- create a footer
